@@ -1,0 +1,31 @@
+.container{
+    font-family: 'Times New Roman', Times, serif;
+}
+.h1{
+    color:blue;
+}
+.table-fixed {
+    width: 100%; /* Ensure the table takes up the full container width */
+    table-layout: fixed; /* Fixed table layout to enable column width control */
+  }
+  
+  .table-fixed thead {
+    display: block; /* Display the header as a block element */
+    width: 100%; /* Ensure the header takes up the full container width */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .table-fixed tbody {
+    display: block; /* Display the body as a block element */
+    max-height: 300px; /* Set a maximum height for the body to enable scrolling */
+    overflow-y: auto; /* Enable vertical scrolling for the body */
+  }
+  
+  .table-fixed th,
+  .table-fixed td {
+    width: 33%; /* Set a fixed width for table cells */
+    padding: 8px; /* Add padding for better spacing */
+    text-align: center; /* Center-align the cell content */
+    border: 1px solid #ccc; /* Add borders for cell separation */
+  }
+  
